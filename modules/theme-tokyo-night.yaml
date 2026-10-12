@@ -1,8 +1,0 @@
-description: Tokyo Night theme for Hyprland
-packages:
-  - ttf-jetbrains-mono-nerd
-post_install_hook: scripts/themes/tokyo-night.sh
-hook_behavior: once
-conflicts:
-  - theme-catppuccin
-  - theme-minimal
