@@ -1,0 +1,12 @@
+description: Hyprland desktop with custom dotfiles from Git
+packages:
+  - hyprland
+  - quickshell
+  - kitty
+  - dolphin
+  - fuzzel
+  - hyprpaper
+  - xdg-desktop-portal-hyprland
+  - xdg-desktop-portal-gtk
+post_install_hook: scripts/setup-hyprland.sh
+hook_behavior: once
