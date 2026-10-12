@@ -4,7 +4,6 @@ import: []
 enabled_modules:
 - declared-packages
 - hyprland-desktop
-- theme-tokyo-night
 packages: []
 exclude: []
 additional_packages: []
