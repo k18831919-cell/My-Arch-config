@@ -1,0 +1,8 @@
+description: Catppuccin theme for Hyprland
+packages:
+  - ttf-jetbrains-mono-nerd
+post_install_hook: scripts/themes/catppuccin.sh
+hook_behavior: once
+conflicts:
+  - theme-tokyo-night
+  - theme-minimal

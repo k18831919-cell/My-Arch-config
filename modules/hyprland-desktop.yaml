@@ -1,4 +1,4 @@
-description: Hyprland desktop with custom dotfiles from Git
+description: Base Hyprland desktop packages
 packages:
   - hyprland
   - quickshell
@@ -8,5 +8,3 @@ packages:
   - hyprpaper
   - xdg-desktop-portal-hyprland
   - xdg-desktop-portal-gtk
-post_install_hook: scripts/setup-hyprland.sh
-hook_behavior: once
