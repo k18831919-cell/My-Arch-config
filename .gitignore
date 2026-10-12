@@ -1,3 +1,12 @@
-# System packages merged from host (auto-generated, host-specific)
+# System packages merged from host
 system-packages-*.yaml
+
+# Local config (machine-specific)
 config.yaml
+
+# Don't track big stuff
+wallpapers/
+state/config-backups/
+*.tar.gz
+*.png
+dotfiles/
